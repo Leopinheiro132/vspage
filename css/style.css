@@ -1,0 +1,74 @@
+:root{
+    --bordecolo: #0a3b56;
+    --notselecionado: #010e1a;
+}
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #011627;
+    color: white;
+}
+.menuSuperior{
+    display: flex;
+    align-items: center;
+    border-bottom: rgb(59, 58, 58) solid 1px;
+}
+.menuSuperior p{
+    text-align: center;
+    display: inline;
+    width: 3rem; 
+}
+
+.vscode{
+    display: flex;
+}
+.barraLateral{
+    display: flex;
+    justify-content: center;
+    max-height: 2.8rem;
+    min-width: 2.8rem;
+    padding: 0.5rem;
+    min-height: 97.9vh;
+    background-color: #011627;
+    border-right: var(--bordecolo) solid 2px;
+}
+.code{
+    display: flex;
+    flex-direction: column;
+}
+.abasLine{
+    justify-content: center;
+    align-items: center;
+    min-width: 96vw;
+    height: 1.7rem;
+    border-bottom: var(--bordecolo) solid 2px;
+}
+.abas{
+    display: inline;
+    margin-right: -5px;
+    padding: 0.6rem;
+    background-color: var(--notselecionado);
+}
+
+.statusBar{
+    display: inline;
+    background-color: #3395ca;
+    position: relative;
+    bottom: 0;
+}
+.menu *{
+    line-height: 0%;
+    padding: 1rem ;
+}
+.codeCamp{
+    padding: 0.1rem 2rem;
+    width: 96vw;
+    height: 93.8vh;
+}
+.abas:hover{
+    background-color: var(--bordecolo);
+}
+.menu *:hover{
+    background-color: var(--bordecolo);
+}
